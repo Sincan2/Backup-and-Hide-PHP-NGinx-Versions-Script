@@ -24,8 +24,8 @@ This script performs automatic backup of PHP and Nginx configuration files, then
 1. Clone this repository to your local machine.
 
     ```sh
-    git clone [https://github.com/Sincan2/backup-hide-versions.git](https://github.com/Sincan2/Backup-and-Hide-PHP-NGinx-Versions-Script.git)
-    cd backup-hide-versions
+    git clone https://github.com/Sincan2/Backup-and-Hide-PHP-NGinx-Versions-Script.git
+    cd Backup-and-Hide-PHP-NGinx-Versions-Script
     ```
 
 2. Modify the script to set the backup directory if needed. The default backup directory is `/root/backup`.
@@ -33,13 +33,13 @@ This script performs automatic backup of PHP and Nginx configuration files, then
 3. Make the script executable.
 
     ```sh
-    chmod +x backup_and_hide_versions.sh
+    chmod +x 1.sh
     ```
 
 4. Run the script with sudo privileges.
 
     ```sh
-    sudo ./backup_and_hide_versions.sh
+    sudo ./1.sh
     ```
 
 ## Script Details
